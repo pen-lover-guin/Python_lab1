@@ -308,25 +308,6 @@
 #     number = int(input())
 
 
-# 4.7 !!!
-# print('Введите 2 числа: координаты клада по оси Х и по оси Y')
-# X = int(input())
-# Y = int(input())
-# step = input()
-# k = 0
-# while step != 'стоп':
-#     aim = int(input())
-#     k += 1
-#     if step == 'вперед':
-#         k += 1
-#     elif step == 'налево' or step == 'направо':
-#         step = 'вперед'
-#         k += 1
-#     else:
-#         step = 'вперед'
-#         k += 1
-# print(k)
-
 # 4.8
 # begin = 1
 # end = 1000
@@ -432,47 +413,6 @@
 #         break
 
 
-# 5.5 АЙ НИД ХЭЛП
-# print('Введите необходимое колво камней в куче')
-# kol = int(input())
-# while True:
-#     if kol == 1 or kol == 2 or kol == 3 or kol == 5 or kol == 6 or kol == 7:
-#         if kol == 2:
-#             kol -= 1
-#             print('Взято камней ИИ', 2, 'осталось камней', kol)
-#         elif kol == 1:
-#             kol -= 1
-#             print('Взято камней ИИ', 1, 'осталось камней', kol)
-#         elif kol == 3:
-#             kol -= 2
-#             print('Взято камней ИИ', 3, 'осталось камней', kol)
-#         elif kol == 5:
-#             kol -= 2
-#             print('Взято камней ИИ', 1, 'осталось камней', kol)
-#         elif kol == 6:
-#             kol -= 3
-#             print('Взято камней ИИ', 2, 'осталось камней', kol)
-#         elif kol == 7:
-#             kol -= 1
-#             print('Взято камней ИИ', 3, 'осталось камней', kol)
-#     else:
-#         if kol % 2 == 0:
-#             kol -= 1
-#             print('Взято камней ИИ', 1, 'осталось камней', kol)
-#         else:
-#             kol -= 2
-#             print('Взято камней ИИ', 2, 'осталось камней', kol)
-#     if kol == 0:
-#         print('ВЫИГРЫШ')
-#         break
-#     print('Введите сколько камней берете(от 1 до 3)')
-#     n = int(input())
-#     kol -= n
-#     print('Взято камней', n, 'осталось камней', kol)
-#     if kol == 0:
-#         print('ПРОИГРЫШ')
-#         break
-
 # 5.6
 # print('Введите начальное колво камней в 1 куче')
 # n1 = int(input())
@@ -497,12 +437,6 @@
 #     print('Оставшиеся камни в 1 куче', n1)
 #     print('Оставшиеся камни во 2 куче', n2)
 #     print('Оставшиеся камни в 3 куче', n3)
-
-
-# 5.7
-
-
-# 5.8
 
 
 # 6.1
@@ -547,30 +481,6 @@
 #     else:
 #         print('0')
 #     i += 1
-
-
-# 6.5 !!
-# print('Введите колво дробинок')
-# n = int(input())
-# SumN = 0
-# SumD = 1
-# for i in range(n):
-#     numerator = int(input())
-#     denominator = int(input())
-#     SumN = SumN * denominator + numerator * SumD
-#     SumD *= denominator
-# print(SumN, SumD)
-# a = SumN
-# b = SumD
-# while a != 0 and b != 0:
-#     if a > b:
-#
-#         a %= b
-#     else:
-#         b %= a
-# gcd = a + b
-# print(gcd)
-# print(SumN // gcd, '/', SumD // gcd)
 
 
 # 6.6
@@ -683,39 +593,6 @@
 #     line = input()
 # print('Общее количество строк с котом:', k)
 # print('Номер строки, где впервые был кот или -1, если кота нет:', cat)
-
-
-# 7.6 !!!
-# print('Введите 2 числа: координаты клада по оси Х и по оси Y')
-# X0 = int(input())
-# Y0 = int(input())
-# X = 0
-# Y = 0
-# print('Введите указания: север, юг, запад или восток или стоп')
-# step = input()
-# while step != 'стоп':
-#     if step == 'север':
-#         print('Введите колво шагов, которые необходимо пройти')
-#         aim = int(input())
-#         Y += aim
-#     elif step == 'юг':
-#         print('Введите колво шагов, которые необходимо пройти')
-#         aim = int(input())
-#         Y -= aim
-#     elif step == 'запад':
-#         print('Введите колво шагов, которые необходимо пройти')
-#         aim = int(input())
-#         X -= aim
-#     elif step == 'восток':
-#         print('Введите колво шагов, которые необходимо пройти')
-#         aim = int(input())
-#         X += aim
-#     print('Введите указания: север, юг, запад или восток или стоп')
-#     step = input()
-# if X == X0 or Y == Y0:
-#     print(2)
-# else:
-#     print(3)
 
 
 # 7.7
